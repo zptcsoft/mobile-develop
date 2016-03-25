@@ -17,7 +17,7 @@
 
 ## 课程讲义
 01. 课程概述
-02. css3过渡和css3变换 [参考资料](//zptcsoft.github.io/css3/properties/transition/index.htm)  [3d翻转菜单]((//zptcsoft.github.io/mobile-develop/demos/transform/menu.html)
+02. css3过渡和css3变换 [参考资料](//zptcsoft.github.io/css3/properties/transition/index.htm)  [3d翻转菜单](//zptcsoft.github.io/mobile-develop/demos/transform/menu.html)
 03. [css3动画工具](//isux.tencent.com/css3/index.html) [小狗绕地球转](//zptcsoft.github.io/mobile-develop/demos/animation/index.html) [打字效果](//zptcsoft.github.io/mobile-develop/demos/animation/type.html)
 04. css 3d [案例1](//codepen.io/whqet/pen/zqzOVK) [案例2](//zptcsoft.github.io/mobile-develop/demos/css3d/index.html)
 05. [flexbox可视化教程](http://blog.csdn.net/whqet/article/details/45154977)  [flexbox实验场](//codepen.io/whqet/pen/RaVobV)
