@@ -1,0 +1,46 @@
+.clearfix:after{
+	content: "";
+	width: 0;
+	visibility: none;
+	opacity: 0;
+	clear: both;
+}
+li{
+	float: left;
+	list-style-type: none;
+	margin: 0 1px;
+}
+li a{
+	display: inline-block;
+	width: 100px;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: #ddd;
+	color: #333;
+	text-decoration: none;
+	transform-style: preserve-3d;
+	transform-origin: center center -15px;
+	transform: rotateX(0deg);
+	transition:all 1s;
+	position: relative;
+}
+li a:after{
+	content: "内容";
+	display: inline-block;
+	width: 100px;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: #333;
+	color: #ddd;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform-style: preserve-3d;
+    transform-origin: center center -15px;
+    transform: rotateX(-90deg);
+}
+li:hover a{
+	transform: rotateX(90deg);
+}
