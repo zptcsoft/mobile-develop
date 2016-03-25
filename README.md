@@ -16,11 +16,11 @@
 正在添加……
 
 ## 课程讲义
-01 课程概述
-02 css3过渡和css3转换
-03 css3动画
-04 css 3d [案例1](//codepen.io/whqet/pen/zqzOVK) [案例2](demos/css3d/index.html)
-05 [flexbox可视化教程](http://blog.csdn.net/whqet/article/details/45154977)  [flexbox实验场](//codepen.io/whqet/pen/RaVobV)
-06 [flex布局案例]
-07 [flexbox案例](demos/flexbox/index.html)
-08 [响应式菜单](demos/responsive/menu.html)
+01. 课程概述
+02. css3过渡和css3转换
+03. css3动画
+04. css 3d [案例1](//codepen.io/whqet/pen/zqzOVK) [案例2](//zptcsoft.github.io/mobile-develop/demos/css3d/index.html)
+05.[flexbox可视化教程](http://blog.csdn.net/whqet/article/details/45154977)  [flexbox实验场](//codepen.io/whqet/pen/RaVobV)
+06. [flex布局案例]
+07. [flexbox案例](//zptcsoft.github.io/mobile-develop/demos/flexbox/index.html)
+08. [响应式菜单](//zptcsoft.github.io/mobile-develop/demos/responsive/menu.html)
