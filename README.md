@@ -17,8 +17,8 @@
 
 ## 课程讲义
 01. 课程概述
-02. css3过渡和css3转换
-03. css3动画
+02. [参考资料](//zptcsoft.github.io/css3/properties/transition/index.htm)  [案例](//www.baidu.com)
+03. [css3动画工具](//isux.tencent.com/css3/index.html) [案例-小狗绕地球转](//www.baidu.com)
 04. css 3d [案例1](//codepen.io/whqet/pen/zqzOVK) [案例2](//zptcsoft.github.io/mobile-develop/demos/css3d/index.html)
 05. [flexbox可视化教程](http://blog.csdn.net/whqet/article/details/45154977)  [flexbox实验场](//codepen.io/whqet/pen/RaVobV)
 06. [flex布局案例](//www.baidu.com)  [Flex 布局教程：语法篇](//www.ruanyifeng.com/blog/2015/07/flex-grammar.html) [Flex 布局教程：实例篇](//www.ruanyifeng.com/blog/2015/07/flex-examples.html?bsh_bid=683103006)
