@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- meta:vp -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing:border-box;
+		}
+		.menu{
+			display: flex;
+			flex-flow:column nowrap;
+			height: 250px;
+		}
+		.menu li{
+			list-style: none;
+			height: 40px;
+			text-align: center;
+			line-height: 40px;
+			background-color: #ddd;
+			border-bottom: 1px solid #ccc;
+		}
+		.menu li a{
+			text-decoration: none;
+			color: #000;
+		}
+		@media (min-width: 480px){
+			.menu{
+				flex-flow:row wrap;
+				height: auto;
+
+			}
+			.menu li{
+				width: 50%;
+				border-right:  1px solid #ccc;
+			}
+		}
+		@media (min-width:768px){
+			.menu{
+				flex-flow:row nowrap;
+			}
+		}
+		@media (min-width:1000px){
+			.menu{
+				width: 1000px;
+				margin: auto;
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- ul.menu>li*6>a[href="#"]{网站首页} -->
+	<div class="alert alert-success" role="alert">请大家改变浏览器大小观看效果</div>
+	<ul class="menu">
+		<li><a href="#">网站首页</a></li>
+		<li><a href="#">企业简介</a></li>
+		<li><a href="#">解决方案</a></li>
+		<li><a href="#">服务流程</a></li>
+		<li><a href="#">通知公告</a></li>
+		<li><a href="#">联系我们</a></li>
+	</ul>
+	<!-- <button class="btn btn-danger">按钮</button> -->
+<!-- 	<ol>
+		<li>head部分添加meta:vp</li>
+		<li>实现一种布局(移动优先)</li>
+		<li>媒体查询，根据不同的设备实现不同布局，min-width: 768px 992px 1200px</li>
+	</ol> -->
+</body>
+</html>
