@@ -25,3 +25,6 @@
 07. [flexbox案例](//zptcsoft.github.io/mobile-develop/demos/flexbox/index.html)
 08. [响应式菜单](//zptcsoft.github.io/mobile-develop/demos/responsive/menu.html)
 09. [响应式表格](//codepen.io/whqet/pen/MyvEaB)  [响应式表格2](//codepen.io/whqet/pen/yOozYE)
+10. html5概述-语义标签-嵌入媒体-html5表单
+11. [audio播放器](//github.com/zptcsoft/selected)
+12. [视频做背景](//codepen.io/whqet/pen/jqzPRV)--[滚动条放视频](//codepen.io/whqet/pen/zqWGeR?editors=0010)
