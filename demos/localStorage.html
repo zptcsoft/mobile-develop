@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- 
+	localStorage对象
+	属性  length 页面里local storage里存的键值对数量
+	方法  
+		localStorage["key"]   获取、设置某个键的值
+		localStorage.setItem("key",value)  设置某个键的值
+		localStorage.getItem("key")  获取某个键的值
+		localStorage.removeItem("key")  删除某个键
+		localStorage.clear()       清除localStorage对象
+
+	-->
+	<form action="">
+  <label for="user">用户：</label>
+  <input id="user" type="text" />
+  
+  <input id="btn" type="submit" value="提交" />
+</form>
+<script src="http://cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+<script>
+	
+	if(localStorage['user']){
+  // $("#user").val(localStorage['user']);
+  var value=localStorage.getItem('user');
+  $("#user").val(value);
+}
+$("#user").change(function(){
+  //localStorage["user"]=$("#user").val();
+  localStorage.setItem('user',$("#user").val());
+  //console.log(localStorage.length);
+});
+$("#btn").click(function(){
+  if(localStorage.length>0){
+    localStorage.clear();
+  }
+});
+</script>
+</body>
+</html>
