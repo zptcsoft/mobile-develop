@@ -14,34 +14,18 @@
 <body>
     <canvas id="mycanvas" width="300" height="300"></canvas>
     <script>
-    var c,ctx;
-    var image = new Image(); 
-    image.onload = function() { 
-       c = document.createElement("canvas");
-       c.width = image.width;
-       c.height = image.height;
-       ctx=c.getContext("2d");
-       ctx.drawImage(image, 0, 0);
-       return c;
-    } 
-    image.src = "a.jpg";
+var image = new Image(); 
 
-    var imageData = ctx.getImageData(0, 0, c.width, c.height);
-    var imgData = grayscale(imageData);
-    ctx.putImageData(imgData, 0, 0);
+image.onload = function() { 
+  var canvas = document.createElement("mycanvas");
+	canvas.width = image.width;
+	canvas.height = image.height;
+	canvas.getContext("2d").drawImage(image, 0, 0);
 
-    function grayscale(pixels) {
+	return canvas;
+} 
 
-        var d = pixels.data;
-        for (var i = 0; i < d.length; i += 4) {
-            var r = d[i];
-            var g = d[i + 1];
-            var b = d[i + 2];
-            d[i] = d[i + 1] = d[i + 2] = (r + g + b) / 3;
-        }
-        return pixels;
-    };
-
+image.src = "ab.png";
     </script>
 </body>
 </html>
