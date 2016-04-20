@@ -14,12 +14,16 @@
 <body>
     <canvas id="mycanvas" width="300" height="300"></canvas>
     <script>
-    var c = document.getElementById("mycanvas");
-    var ctx = c.getContext("2d");
-    var img = new Image();
-    img.src = "a.jpg";
-    ctx.drawImage(img, 0, 0);
-    
+    var image = new Image(); 
+    image.onload = function() { 
+        var c = document.createElement("canvas");
+	    c.width = image.width;
+	    c.height = image.height;
+	    ctx=c.getContext("2d");
+	    ctx.drawImage(image, 0, 0);
+	    return c;
+    } 
+    image.src = "a.jpg";
 
     var imageData = ctx.getImageData(0, 0, c.width, c.height);
     var imgData = grayscale(imageData);
