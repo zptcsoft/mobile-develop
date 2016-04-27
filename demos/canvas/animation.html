@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>动画</title>
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	<script>
+	var canvas=document.getElementById('canvas');
+	var ctx=canvas.getContext("2d");
+	var x=0,y=0;
+	ctx.fillStyle="#000";
+	/* setInterval的机制 
+	function runRect(){
+		x++;
+		y+=.5;
+		ctx.clearRect(0,0,canvas.width,canvas.height);
+		ctx.fillRect(x,y,50,50);
+	}
+	setInterval(runRect,1000/60);
+	*/
+
+	(function runRect(){
+		x++;
+		y+=.5;
+		ctx.clearRect(0,0,canvas.width,canvas.height);
+		ctx.fillRect(x,y,50,50);
+		requestAnimationFrame(runRect);
+	})();
+	/*
+		也可使用requestAnimationFrame的polyfill实现浏览器兼容
+			https://github.com/darius/requestAnimationFrame	
+	*/
+	</script>
+</body>
+</html>

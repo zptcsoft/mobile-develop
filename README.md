@@ -29,3 +29,6 @@
 11. [audio播放器](//github.com/zptcsoft/selected)
 12. [视频做背景](//codepen.io/whqet/pen/jqzPRV)--[滚动条放视频](//codepen.io/whqet/pen/zqWGeR?editors=0010)
 13. localStorage [表单存储](//zptcsoft.github.io/mobile-develop/demos/localStorage.html)
+14. [canvas教程](//www.gitbook.com/book/airingursb/canvas/details) 
+15. [canvas动画示例1](//zptcsoft.github.io/mobile-develop/demos/canvas/animation.html)  
+    [canvas动画示例2](//zptcsoft.github.io/mobile-develop/demos/canvas/animation02.html) 
